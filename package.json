@@ -1,0 +1,34 @@
+{
+  "name": "sign-in-page",
+  "version": "1.0.0",
+  "description": "Sign in page using node + express + passportjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdihashii/sign-in-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdihashii/sign-in-page/issues"
+  },
+  "homepage": "https://github.com/abdihashii/sign-in-page#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.0",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
