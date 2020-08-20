@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/abdihashii/sign-in-page#readme",
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "express-flash": "0.0.2",
